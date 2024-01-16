@@ -31,5 +31,6 @@ namespace CrimeAnalysisReportingSystem.Dao
         // Get a list of all cases
         IEnumerable<Case> GetAllCases();
         Incident GetIncidentById(int incidentId);
+        bool IncidentExistsInDatabase(int incidentId);
     }
 }
